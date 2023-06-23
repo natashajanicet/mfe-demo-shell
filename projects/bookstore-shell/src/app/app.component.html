@@ -1,7 +1,18 @@
-<nav class="navbar navbar-expand-lg bg-primary bg-body-tertiary" data-bs-theme="dark">
+<nav
+  class="navbar navbar-expand-lg bg-primary bg-body-tertiary"
+  data-bs-theme="dark"
+>
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Bookstore</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -19,6 +30,9 @@
     </div>
   </div>
 </nav>
+{{ "two" | translate }}
+<button (click)="toggleLanguage()">Toggle language</button>
+<img src="/assets/img1.jpg" />
 <div class="container">
   <router-outlet></router-outlet>
 </div>

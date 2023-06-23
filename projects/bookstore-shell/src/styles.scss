@@ -6,3 +6,16 @@
 @import "bootstrap/scss/mixins";
 // Optional
 @import "bootstrap/scss/grid";
+
+.clamp-line-options {
+    &.mat-mdc-option {
+  
+      .mdc-list-item__primary-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }

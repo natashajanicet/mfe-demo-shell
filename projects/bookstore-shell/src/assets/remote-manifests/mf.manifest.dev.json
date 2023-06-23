@@ -1,0 +1,4 @@
+{
+    "auth-mfe": "http://localhost:4200/remoteEntry.js",
+    "book-mfe": "http://localhost:4300/remoteEntry.js"
+}
